@@ -1,0 +1,141 @@
+//-------------Colors------------//
+$GreenBackground: #006341;
+$GrayBackground: #F7F7F7;
+$CoffeeBackground:#f1f0eb;
+$WhiteBackground: #FFFFFF;
+$GrayTypographie:#3D3935;
+$BlackTypographie:#000000;
+$WhiteTypographie: #FFFFFF;
+$RedBackground:#e2211c;
+
+
+//-------------Typographies------------//
+$MainTypographie:'Rubik', sans-serif;
+
+
+
+//----------------------------Desktop Styles------------------------------//
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: $MainTypographie;   
+
+    
+
+    //-----Cuerpo de la página------------//
+    #coffeInfo
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;        
+        #coffeeText
+        {
+            width: 100%;     
+            display: flex;
+            justify-content: center;                                                    
+            div
+            {
+                width: 70%;
+                text-align: center;
+                img
+                {
+                    width: 100%;                                     
+                }
+                p
+                {
+                    font-size: 150%;
+                }
+            }                                               
+        }       
+    }
+
+    #rewardsSection
+    {        
+        display: flex;
+        justify-content: center;  
+        margin-top: 10%;               
+        div
+        {
+            text-align: center;
+            padding: 5% 5% 5% 5%;
+            border-radius: 20px;
+            color: $WhiteBackground;
+            background-color: $GreenBackground;
+            -webkit-box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 0.75);
+            -moz-box-shadow:    0px 0px 30px 0px rgba(50, 50, 50, 0.75);
+            box-shadow:         0px 0px 30px 0px rgba(50, 50, 50, 0.75);
+            h3,h2
+            {
+                font-weight: lighter;
+            }
+
+            .btnrewards
+            {
+                border: none;
+                border-radius: 20px;
+                padding: 3% 10% 3% 10%;
+                margin: 5%;
+                color: $GreenBackground;
+                font-family: $MainTypographie;
+                font-size: medium;
+            }
+            .btnrewards:hover
+            {
+                color: $WhiteBackground;
+                background-color: $GreenBackground;
+                border: 1px solid $WhiteBackground;                
+            }
+            div 
+            {
+                box-shadow: none;
+            }
+        }
+    }
+
+
+    #deliverySection
+    {
+        width: 100%;        
+        display: flex;
+        margin-top: 15%;        
+
+        #deliverySectionImage
+        {
+            width: 50%;
+            display: flex;
+            justify-content: center;                                    
+        }
+
+        #deliverySectionText
+        {
+            width: 50%;           
+            display: flex;
+            justify-content: center;                                                            
+            div
+            {
+                width:auto;                
+                display: flex;
+                flex-direction: column;
+                justify-content: center; 
+                text-align: center;
+                h1
+                {
+                    margin: 0;
+                    padding: 0;
+                }
+                p
+                {
+                    margin-top: 0;
+                    font-size: x-large;
+                }   
+                a
+                {
+                    text-decoration: none;
+                    color:$GrayTypographie;
+                }                                                           
+            }
+        }
+    }    
+}

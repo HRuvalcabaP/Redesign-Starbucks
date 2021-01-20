@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+}
+body #coffeInfo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+}
+body #coffeInfo #coffeeText {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+body #coffeInfo #coffeeText div {
+  width: 70%;
+  text-align: center;
+}
+body #coffeInfo #coffeeText div img {
+  width: 100%;
+}
+body #coffeInfo #coffeeText div p {
+  font-size: 150%;
+}
+body #rewardsSection {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+body #rewardsSection div {
+  text-align: center;
+  padding: 5% 5% 5% 5%;
+  border-radius: 20px;
+  color: #FFFFFF;
+  background-color: #006341;
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 0.75);
+}
+body #rewardsSection div h3, body #rewardsSection div h2 {
+  font-weight: lighter;
+}
+body #rewardsSection div .btnrewards {
+  border: none;
+  border-radius: 20px;
+  padding: 3% 10% 3% 10%;
+  margin: 5%;
+  color: #006341;
+  font-family: "Rubik", sans-serif;
+  font-size: medium;
+}
+body #rewardsSection div .btnrewards:hover {
+  color: #FFFFFF;
+  background-color: #006341;
+  border: 1px solid #FFFFFF;
+}
+body #rewardsSection div div {
+  box-shadow: none;
+}
+body #deliverySection {
+  width: 100%;
+  display: flex;
+  margin-top: 15%;
+}
+body #deliverySection #deliverySectionImage {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+body #deliverySection #deliverySectionText {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+body #deliverySection #deliverySectionText div {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+body #deliverySection #deliverySectionText div h1 {
+  margin: 0;
+  padding: 0;
+}
+body #deliverySection #deliverySectionText div p {
+  margin-top: 0;
+  font-size: x-large;
+}
+body #deliverySection #deliverySectionText div a {
+  text-decoration: none;
+  color: #3D3935;
+}
+
+/*# sourceMappingURL=main.css.map */
